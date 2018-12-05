@@ -20,7 +20,7 @@ public class Team0SortCompetition extends SortCompetition
                 }
             }
         }
-        int sum =arr[5000]+arr[4999];
+        int sum =arr[arr.length/2]+arr[(arr.length/2)-1];
         int a= sum/2;
         return a;
     }
